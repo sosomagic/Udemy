@@ -8,9 +8,16 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
       
+    <script type="text/javascript" src="jquery.js"></script>
 </head>
 
 <body>
-
+	<script>
+		if (typeof jQuery != "undefined") {
+			alert('jQuery is installed!');
+		} else {
+			alert('jQuery is not installed!');
+		}
+	</script>
 </body>
 </html>
